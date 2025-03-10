@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Audio Player</title>
+    <title>Audio Player</title>
     <style>
         /* Add some styling for the play button */
         .play-button {
@@ -20,6 +20,7 @@
     </style>
 </head>
 <body>
+
     <!-- audio player -->
     <audio src="https://ia800608.us.archive.org/9/items/22-kayamimam-method/22%20KAYAMIMAM%20METHOD.mp3" controls></audio>
     <audio src="https://ia600702.us.archive.org/3/items/23-right-thought_202503/23%20%20RIGHT%20THOUGHT.mp3" controls></audio>

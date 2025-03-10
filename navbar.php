@@ -40,8 +40,8 @@
         <div class="dropdown">
           <span class="dropbtn menu link">Resources</span>
           <div class="dropdown-content mt-1">
-            <a href="view/" class="sub-links">တရားတော်များ</a>
-            <a href="view/" class="sub-links">စာအုပ်များ</a>
+            <a href="view/tayardaw.php" class="sub-links">တရားတော်များ</a>
+            <a href="view/book.php" class="sub-links">စာအုပ်များ</a>
           </div>
         </div>
 
@@ -75,8 +75,8 @@
       <div class="dropdown">
         <span class="dropbtn menu link">Resources</span>
         <div class="dropdown-content mt-1">
-          <a href="#" class="sub-links">တရားတော်များ</a>
-          <a href="#" class="sub-links">စာအုပ်များ</a>
+          <a href="tayardaw.php" class="sub-links">တရားတော်များ</a>
+          <a href="book.php" class="sub-links">စာအုပ်များ</a>
         </div>
       </div>
 

@@ -246,7 +246,7 @@
 /* For footer */
 .footer{
   /* height:380px; */
-  background-color: #7d0101;
+  background-color: rgb(63,0,0);
 }
 .copyright{
   padding-left: 100px;
