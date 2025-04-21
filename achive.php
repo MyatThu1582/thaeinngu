@@ -23,7 +23,7 @@
 
     <!-- audio player -->
     <audio src="https://ia800608.us.archive.org/9/items/22-kayamimam-method/22%20KAYAMIMAM%20METHOD.mp3" controls></audio>
-    <audio src="https://ia600702.us.archive.org/3/items/23-right-thought_202503/23%20%20RIGHT%20THOUGHT.mp3" controls></audio>
+    <audio src="https://ia601806.us.archive.org/10/items/23-right-thought/23%20%20RIGHT%20THOUGHT.mp3" controls></audio>
     <!-- audio player -->
 
     <?php 
@@ -34,7 +34,7 @@
         ],
         [
             'name' => '23  RIGHT THOUGHT',
-            'src' => 'https://ia600702.us.archive.org/3/items/23-right-thought_202503/23%20%20RIGHT%20THOUGHT.mp3',
+            'src' => 'https://ia601806.us.archive.org/10/items/23-right-thought/23%20%20RIGHT%20THOUGHT.mp3',
         ]
     ];
     ?>
@@ -59,36 +59,46 @@
         }
     ?>
 
-    <script>
-        let currentAudio = null; // Keep track of the currently playing audio
+<script>
+    let currentAudio = null;
+    let currentButton = null;
 
-        document.querySelectorAll('.play-button').forEach((button, index) => {
-            button.addEventListener('click', () => {
-                const audioPlayer = document.getElementById('audioPlayer' + index);
-                const icon = button.querySelector('i'); // Get the icon inside the button
-                
-                // If another audio is playing, pause it
-                if (currentAudio && currentAudio !== audioPlayer) {
-                    currentAudio.pause();
-                    currentAudio.previousElementSibling.querySelector('i').classList.remove('fa-pause');
-                    currentAudio.previousElementSibling.querySelector('i').classList.add('fa-play');
-                }
+    document.querySelectorAll('.play-button').forEach((button, index) => {
+        button.addEventListener('click', () => {
+            const audioPlayer = document.getElementById('audioPlayer' + index);
+            const icon = button.querySelector('i');
 
-                // If the audio is paused, play it
-                if (audioPlayer.paused) {
-                    audioPlayer.style.display = 'block'; // Show the player
-                    audioPlayer.play(); // Play the audio
-                    icon.classList.remove('fa-play'); // Change icon to pause
-                    icon.classList.add('fa-pause'); // Change icon to pause
-                    currentAudio = audioPlayer; // Set the current audio as the one that is playing
-                } else {
-                    audioPlayer.pause(); // Pause the audio
-                    icon.classList.remove('fa-pause'); // Change icon to play
-                    icon.classList.add('fa-play'); // Change icon to play
-                    currentAudio = null; // Reset current audio if paused
+            // Pause and reset any previously playing audio
+            if (currentAudio && currentAudio !== audioPlayer) {
+                currentAudio.pause();
+                currentAudio.style.display = 'none';
+
+                if (currentButton) {
+                    const prevIcon = currentButton.querySelector('i');
+                    prevIcon.classList.remove('fa-pause');
+                    prevIcon.classList.add('fa-play');
                 }
-            });
+            }
+
+            // Toggle play/pause for the clicked button
+            if (audioPlayer.paused) {
+                audioPlayer.style.display = 'block';
+                audioPlayer.play();
+                icon.classList.remove('fa-play');
+                icon.classList.add('fa-pause');
+                currentAudio = audioPlayer;
+                currentButton = button;
+            } else {
+                audioPlayer.pause();
+                audioPlayer.style.display = 'none';
+                icon.classList.remove('fa-pause');
+                icon.classList.add('fa-play');
+                currentAudio = null;
+                currentButton = null;
+            }
         });
-    </script>
+    });
+</script>
+
 </body>
 </html>

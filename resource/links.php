@@ -36,8 +36,9 @@
   display: none;
 }
 .none-bg{
-  background-color: white !important;
-  color: rgb(94, 0, 0);
+  background-color: rgb(94, 0, 0) !important;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(94, 0, 0);
 }
 .bg-brown{
   background-color:rgb(94,0,0);
@@ -87,6 +88,7 @@
   font-weight: bold;
   color: rgb(94,0,0);
   margin: 0px 10px;
+  text-decoration: none !important;
 }
 .sub-title{
   font-weight: bold;
@@ -174,11 +176,12 @@
   margin-bottom: 50px;
 }
 .btns{
-  background-color: rgba(0,0,0,0.1);
-  /* box-shadow: 15px 15px 16px 0px rgba(94,0,0,0.5); */
+  /* background-color: rgba(0,0,0,0.1); */
+  width: 695.9px;
+  box-shadow: 0px 9px 18px 0px rgba(94,0,0,0.3);
 }
 .biolinks{
-  padding: 15px 44.4px;
+  padding: 15px 44.8px;
   border: none;
   background-color: transparent;
   transition: 0.1s;
@@ -236,7 +239,48 @@
 .rounded_gallery{
   border-radius: 4px;
 }
-
+.sidebar {
+    width: 280px;
+    /* background: rgb(94, 0, 0); */
+    border-right : 2px solid rgb(94,0,0);
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.sidebar h4 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.sidebar a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: black;
+    padding: 12px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 5px 0;
+    transition: 0.3s;
+    font-size: 18px;
+}
+.sidebar a i {
+    margin-right: 10px;
+}
+.sidebar a.active, .sidebar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(5px);
+}
+.content {
+    flex-grow: 1;
+    padding: 40px;
+}
+.content h2 {
+    color: #343a40;
+    font-size: 28px;
+}
 
 
 

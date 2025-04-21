@@ -16,13 +16,23 @@
 <div class="" style="box-shadow: 0px 8px 16px 0px rgba(94,0,0,0.5); background-color: white;">
   <div class="container d-flex nab-bar">
     <div class="col-4">
-      <span class="main-title">သဲအင်းဂူ</span><span class="sub-title">ဗဟိုဌာနချုပ် (မှော်ဘီ )</span>
-    </div>
-    <div class="col-7">
-      <?php
+    <?php
       $link = $_SERVER['PHP_SELF'];
       $linkary = explode('/',$link);
       $page = end($linkary);
+      if ($page == 'index.php' || $page == 'login.php' || $page == 'register.php') {
+    ?>
+      <a href="index.php" class="main-title">သဲအင်းဂူ</a><span class="sub-title">ဗဟိုဌာနချုပ် (မှော်ဘီ )</span>
+    <?php 
+      }else{
+    ?>
+      <a href="../index.php" class="main-title">သဲအင်းဂူ</a><span class="sub-title">ဗဟိုဌာနချုပ် (မှော်ဘီ )</span>
+    <?php
+      }
+    ?>
+    </div>
+    <div class="col-7">
+      <?php
       if ($page == 'index.php' || $page == 'login.php' || $page == 'register.php') {
       ?>
       <div class="">
