@@ -1,14 +1,42 @@
 <?php include 'navbar.php'; ?>
 <!-- first -->
-<div class="home">
-  <div class="col-6">
-    <h3 class="">Welcome To ThaeInnGu</h3>
-    <p class="mt-3">Located in the serene outskirts of Hmawbi, Myanmar, Theinngu Monastery is a revered sanctuary dedicated to the practice of mindfulness and insight meditation. Founded by the esteemed Theinngu Sayadaw U Ukkaṭṭha, the monastery serves as the heart of the Theinngu Vipassanā tradition—a practice rooted in unwavering stillness, deep awareness, and inner transformation.
-
-Guided by a strong lineage and a commitment to Dhamma, Theinngu Monastery continues to be a place where seekers from around the world gather to cultivate wisdom, discipline, and peace through rigorous and focused meditation. It is more than a monastery—it's a spiritual refuge for those walking the path of liberation.</p>
+<div class="home d-flex">
+  <div class="col-6 mt-5 ms-5 ps-5">
+    <img src="sayardaw/2.3.png" alt="" width="45%" height="70%" class="rounded-3"><br><br>
+    မူလသဲအင်းဂူဆရာတော်
+    <span class="text-brown">ဘုရားကြီး ဦးဥက္ကဌ</span>
+  </div>
+  <div class="col-4">
+    <!-- <h3 class="">Welcome To ThaeInnGu</h3>
+    <p class="mt-3">Located in the serene outskirts of Hmawbi, Myanmar, Theinngu Monastery is a revered sanctuary dedicated to the practice of mindfulness and insight meditation. Founded by the esteemed Theinngu Sayadaw U Ukkaṭṭha, the monastery serves as the heart of the Theinngu Vipassanā tradition—a practice rooted in unwavering stillness, deep awareness, and inner transformation.</p> -->
   </div>
 </div>
 <!-- first -->
+
+<!-- bio -->
+<div class="bio container d-flex mt-5 pt-5" >
+  <div class="col-8">
+    <h3>Introduction To ThaeInnGu</h3>
+    <p class="title-underline"></p>
+    <img src="ThaeInnGu/intro.jpg" alt="" width="95%" height="70%" class="">
+  </div>
+  <div class="col-4 pt-5 mt-5">
+    <div class="">
+      <h5 class="text-brown">What is ThaeInnGu ?</h5>
+      <p>Theinngu refers to both a meditation tradition and the monastery that upholds it, located in Hmawbi, Myanmar. It is known for its strict yet powerful approach to Vipassanā meditation, emphasizing stillness, strong mindfulness, and deep insight into the nature of the mind and body.</p>
+    </div>
+    <div class="">
+      <h5 class="text-brown">Where is ThaeInnGu ?</h5>
+      <p>Theinngu Monastery is located in Hmawbi Township, north of Yangon, Myanmar.</p>
+    </div>
+    <div class="">
+      <h5 class="text-brown">Who is Tha Fonder of ThaeInnGu ?</h5>
+      <p>Sayadaw U Ukkaṭṭha founded the Theinngu meditation tradition, teaching deep mindfulness through stillness and discipline. His legacy lives on at Theinngu Monastery.</p>
+    </div>
+    <a href="view/intro.php" class="btn btn-default float-end text-brown" style="margin-top: -15px;">See More</a>
+  </div>
+</div>
+<!-- bio -->
 
 <!-- intro -->
 <div class="intro container d-flex mt-5 pt-5">
