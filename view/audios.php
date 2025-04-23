@@ -3,41 +3,43 @@
 <?php
 // Sample audio data array (you can load this from a database instead)
 $audio_datas = [
-    ['name' => '22 KAYAMIMAM METHOD', 'src' => 'https://ia800608.us.archive.org/9/items/22-kayamimam-method/22%20KAYAMIMAM%20METHOD.mp3'],
-    ['name' => '23 RIGHT THOUGHT', 'src' => 'https://ia601806.us.archive.org/10/items/23-right-thought/23%20%20RIGHT%20THOUGHT.mp3'],
-    ['name' => 'တစ်ခါတည်းချစ်ချင်လို့ပါ ချမ်းချမ်း Lyrics (256k)', 'src' => 'https://ia801504.us.archive.org/3/items/lyrics-256k/...mp3'],
-    ['name' => 'Joe Lay နေရောင်ပျောက်တဲ့နွေ Lyric Video (256k)', 'src' => 'https://ia800704.us.archive.org/23/items/joe-lay-lyric-video-256k/...mp3'],
-    ['name' => 'ကံ့ကော်မြို့တော် (256k)', 'src' => 'https://ia600704.us.archive.org/22/items/256k_20250422/...mp3'],
-    ['name' => 'ဥပါဒါန္ Theme Song (256k)', 'src' => 'https://ia801404.us.archive.org/33/items/theme-song-256k/...mp3'],
-    ['name' => '22 KAYAMIMAM METHOD', 'src' => 'https://ia800608.us.archive.org/9/items/22-kayamimam-method/22%20KAYAMIMAM%20METHOD.mp3'],
-    ['name' => '23 RIGHT THOUGHT', 'src' => 'https://ia601806.us.archive.org/10/items/23-right-thought/23%20%20RIGHT%20THOUGHT.mp3'],
-    ['name' => 'တစ်ခါတည်းချစ်ချင်လို့ပါ ချမ်းချမ်း Lyrics (256k)', 'src' => 'https://ia801504.us.archive.org/3/items/lyrics-256k/...mp3'],
-    ['name' => 'Joe Lay နေရောင်ပျောက်တဲ့နွေ Lyric Video (256k)', 'src' => 'https://ia800704.us.archive.org/23/items/joe-lay-lyric-video-256k/...mp3'],
-    ['name' => 'ကံ့ကော်မြို့တော် (256k)', 'src' => 'https://ia600704.us.archive.org/22/items/256k_20250422/...mp3'],
-    ['name' => 'ဥပါဒါန္ Theme Song (256k)', 'src' => 'https://ia801404.us.archive.org/33/items/theme-song-256k/...mp3'],
-    ['name' => '22 KAYAMIMAM METHOD', 'src' => 'https://ia800608.us.archive.org/9/items/22-kayamimam-method/22%20KAYAMIMAM%20METHOD.mp3'],
-    ['name' => '23 RIGHT THOUGHT', 'src' => 'https://ia601806.us.archive.org/10/items/23-right-thought/23%20%20RIGHT%20THOUGHT.mp3'],
-    ['name' => 'တစ်ခါတည်းချစ်ချင်လို့ပါ ချမ်းချမ်း Lyrics (256k)', 'src' => 'https://ia801504.us.archive.org/3/items/lyrics-256k/...mp3'],
-    ['name' => 'Joe Lay နေရောင်ပျောက်တဲ့နွေ Lyric Video (256k)', 'src' => 'https://ia800704.us.archive.org/23/items/joe-lay-lyric-video-256k/...mp3'],
-    ['name' => 'ကံ့ကော်မြို့တော် (256k)', 'src' => 'https://ia600704.us.archive.org/22/items/256k_20250422/...mp3'],
-    ['name' => 'ဥပါဒါန္ Theme Song (256k)', 'src' => 'https://ia801404.us.archive.org/33/items/theme-song-256k/...mp3'],
-    ['name' => '22 KAYAMIMAM METHOD', 'src' => 'https://ia800608.us.archive.org/9/items/22-kayamimam-method/22%20KAYAMIMAM%20METHOD.mp3'],
-    ['name' => '23 RIGHT THOUGHT', 'src' => 'https://ia601806.us.archive.org/10/items/23-right-thought/23%20%20RIGHT%20THOUGHT.mp3'],
-    ['name' => 'တစ်ခါတည်းချစ်ချင်လို့ပါ ချမ်းချမ်း Lyrics (256k)', 'src' => 'https://ia801504.us.archive.org/3/items/lyrics-256k/...mp3'],
-    ['name' => 'Joe Lay နေရောင်ပျောက်တဲ့နွေ Lyric Video (256k)', 'src' => 'https://ia800704.us.archive.org/23/items/joe-lay-lyric-video-256k/...mp3'],
-    ['name' => 'ကံ့ကော်မြို့တော် (256k)', 'src' => 'https://ia600704.us.archive.org/22/items/256k_20250422/...mp3'],
-    ['name' => 'ဥပါဒါန္ Theme Song (256k)', 'src' => 'https://ia801404.us.archive.org/33/items/theme-song-256k/...mp3'],
-    ['name' => '22 KAYAMIMAM METHOD', 'src' => 'https://ia800608.us.archive.org/9/items/22-kayamimam-method/22%20KAYAMIMAM%20METHOD.mp3'],
-    ['name' => '23 RIGHT THOUGHT', 'src' => 'https://ia601806.us.archive.org/10/items/23-right-thought/23%20%20RIGHT%20THOUGHT.mp3'],
-    ['name' => 'တစ်ခါတည်းချစ်ချင်လို့ပါ ချမ်းချမ်း Lyrics (256k)', 'src' => 'https://ia801504.us.archive.org/3/items/lyrics-256k/...mp3'],
-    ['name' => 'Joe Lay နေရောင်ပျောက်တဲ့နွေ Lyric Video (256k)', 'src' => 'https://ia800704.us.archive.org/23/items/joe-lay-lyric-video-256k/...mp3'],
-    ['name' => 'ကံ့ကော်မြို့တော် (256k)', 'src' => 'https://ia600704.us.archive.org/22/items/256k_20250422/...mp3'],
-    ['name' => 'ဥပါဒါန္ Theme Song (256k)', 'src' => 'https://ia801404.us.archive.org/33/items/theme-song-256k/...mp3'],
+    ['name' => '001.ပရိကံ', 'src' => 'https://ia800206.us.archive.org/14/items/001._20250423/001.%E1%80%95%E1%80%9B%E1%80%AD%E1%80%80%E1%80%B6.mp3'],
+    ['name' => '002.ဝေဒနာ တစ်လုံးတည်းသိ', 'src' => 'https://ia600705.us.archive.org/21/items/mp-3-160-k_20250423/_%E1%80%9E%E1%80%B2%E1%80%A1%E1%80%84%E1%80%BA%E1%80%B8%E1%80%82%E1%80%B0%E1%80%86%E1%80%9B%E1%80%AC%E1%80%90%E1%80%B1%E1%80%AC%E1%80%BA%E1%80%98%E1%80%AF%E1%80%9B%E1%80%AC%E1%80%B8%E1%80%80%E1%80%BC%E1%80%AE%E1%80%B8%20%E1%80%9D%E1%80%B1%E1%80%92%E1%80%94%E1%80%AC%20%E1%80%90%E1%80%85%E1%80%BA%E1%80%9C%E1%80%AF%E1%80%B6%E1%80%B8%E1%80%90%E1%80%8A%E1%80%BA%E1%80%B8%E1%80%9E%E1%80%AD%E1%80%A1%E1%80%9C%E1%80%AF%E1%80%95%E1%80%BA%E1%80%95%E1%80%B1%E1%80%B8%E1%80%90%E1%80%9B%E1%80%AC%E1%80%B8%E1%80%90%E1%80%B1%E1%80%AC%E1%80%BA------------%28MP3_160K%29.mp3'],
+    ['name' => '003.အရှုဈာန်သက်သက်ရှုကွက်', 'src' => 'https://ia600709.us.archive.org/4/items/003.f/003.%E1%80%A1%E1%80%9B%E1%82%88%E1%80%85%E1%80%BA%E1%80%AC%E1%80%94%E1%80%B9%E1%80%9E%E1%80%80%E1%80%B9%E1%80%9E%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80f.mp3'],
+    ['name' => '004.မှော်ဘီရှုကွက်', 'src' => 'https://ia600709.us.archive.org/12/items/004._20250423/004.%E1%80%B1%E1%80%99%E1%80%BD%E1%80%AC%E1%80%B9%E1%80%98%E1%80%AE%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+    ['name' => '005.မြောက်ဥက္ကလာရှုကွက်', 'src' => 'https://ia801705.us.archive.org/32/items/005._20250423/005.%E1%80%B1%E1%80%BB%E1%80%99%E1%80%AC%E1%80%80%E1%80%B9%E1%80%A5%E1%80%80%E1%81%A0%E1%80%9C%E1%80%AC%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+    ['name' => '006.ဝေဒနာရှုကွက်', 'src' => 'https://ia801801.us.archive.org/12/items/006._20250423/006.%E1%80%B1%E1%80%9D%E1%80%92%E1%80%94%E1%80%AC%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+    ['name' => '007.တက္ကသိုလ်ရှုကွက်', 'src' => 'https://ia600706.us.archive.org/0/items/007._20250423/007.%E1%80%90%E1%80%80%E1%81%A0%E1%80%9E%E1%80%AD%E1%80%AF%E1%80%9C%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+    ['name' => '008.တောင်ကြီးရှုကွက်', 'src' => 'https://ia801605.us.archive.org/26/items/008._20250423/008.%E1%80%B1%E1%80%90%E1%80%AC%E1%80%84%E1%80%B9%E1%82%80%E1%80%80%E1%80%AE%E1%80%B8%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+    ['name' => '009.သဲအင်းရှုကွက်', 'src' => 'https://ia600709.us.archive.org/18/items/009._20250423/009.%E1%80%9E%E1%80%B2%E1%80%A1%E1%80%84%E1%80%B9%E1%80%B8%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+    ['name' => '010.နှင်းပုလဲရှုကွက်', 'src' => 'https://ia600206.us.archive.org/15/items/010._20250423/010.%E1%82%8F%E1%80%BD%E1%80%84%E1%80%B9%E1%80%B8%E1%80%95%E1%80%AF%E1%80%9C%E1%80%B2%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+
+    ['name' => '011.အပယ်ပိတ်ရှုကွက်', 'src' => 'https://ia800707.us.archive.org/32/items/011._20250423/011.%E1%80%A1%E1%80%95%E1%80%9A%E1%80%B9%E1%80%95%E1%80%AD%E1%80%90%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+    ['name' => '012.တာမွေရှုကွက်', 'src' => 'https://ia600708.us.archive.org/29/items/012._20250423/012.%E1%80%90%E1%80%AC%E1%80%B1%E1%80%99%E1%80%BC%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+    ['name' => '013.မြေနီကုန်းရှုကွက်', 'src' => 'https://ia601905.us.archive.org/21/items/013._20250423/013.%E1%80%B1%E1%80%BB%E1%80%99%E1%80%94%E1%80%AE%E1%80%80%E1%80%AF%E1%80%94%E1%80%B9%E1%80%B8%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+    ['name' => '014.ထားဝယ်ရှုကွက်', 'src' => 'https://ia801603.us.archive.org/19/items/014._20250423/014.%E1%80%91%E1%80%AC%E1%80%B8%E1%80%9D%E1%80%9A%E1%80%BA%E1%80%9B%E1%80%BE%E1%80%AF%E1%80%80%E1%80%BD%E1%80%80%E1%80%BA.mp3'],
+    ['name' => '015.မော်လမြိုင်ရှုကွက်', 'src' => 'https://ia801905.us.archive.org/19/items/015._20250423/015.%E1%80%99%E1%80%B1%E1%80%AC%E1%80%BA%E1%80%9C%E1%80%99%E1%80%BC%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%9B%E1%80%BE%E1%80%AF%E1%80%80%E1%80%BD%E1%80%80%E1%80%BA.mp3'],
+    ['name' => '016.အကာ နှင့် အနှစ်ရှုကွက်', 'src' => 'https://ia600704.us.archive.org/10/items/016._20250423/016.%E1%80%A1%E1%80%80%E1%80%AC%20%E1%80%94%E1%80%BE%E1%80%84%E1%80%B7%E1%80%BA%20%E1%80%A1%E1%80%94%E1%80%BE%E1%80%85%E1%80%BA%E1%80%9B%E1%80%BE%E1%80%AF%E1%80%80%E1%80%BD%E1%80%80%E1%80%BA.mp3'],
+    ['name' => '017.ဝေဒနာနုပဿနာရှုကွက်', 'src' => 'https://ia600207.us.archive.org/23/items/017._20250423/017.%E1%80%9D%E1%80%B1%E1%80%92%E1%80%94%E1%80%AC%E1%80%94%E1%80%AF%E1%80%95%E1%80%BF%E1%80%94%E1%80%AC%E1%80%9B%E1%80%BE%E1%80%AF%E1%80%80%E1%80%BD%E1%80%80%E1%80%BA.mp3'],
+    ['name' => '018.သင်္ကြန် အဓိဌာန်ရှုကွက်', 'src' => 'https://ia801508.us.archive.org/29/items/018._20250423/018.%E1%80%9E%E1%80%84%E1%80%BA%E1%80%B9%E1%80%80%E1%80%BC%E1%80%94%E1%80%BA%20%E1%80%A1%E1%80%93%E1%80%AD%E1%80%8C%E1%80%AC%E1%80%94%E1%80%BA%E1%80%9B%E1%80%BE%E1%80%AF%E1%80%80%E1%80%BD%E1%80%80%E1%80%BA.mp3'],
+    ['name' => '019.တောင်တွင်းကြီး(၁)ရှုကွက်', 'src' => 'https://ia800704.us.archive.org/9/items/019._20250423/019.%E1%80%90%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%E1%80%90%E1%80%BD%E1%80%84%E1%80%BA%E1%80%B8%E1%80%80%E1%80%BC%E1%80%AE%E1%80%B8%28%E1%81%81%29%E1%80%9B%E1%80%BE%E1%80%AF%E1%80%80%E1%80%BD%E1%80%80%E1%80%BA.mp3'],
+    ['name' => '020.တောင်တွင်းကြီး(၂)ရှုကွက်', 'src' => 'https://ia800703.us.archive.org/12/items/020._20250423/020.%E1%80%90%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%E1%80%90%E1%80%BD%E1%80%84%E1%80%BA%E1%80%B8%E1%80%80%E1%80%BC%E1%80%AE%E1%80%B8%28%E1%81%82%29%E1%80%9B%E1%80%BE%E1%80%AF%E1%80%80%E1%80%BD%E1%80%80%E1%80%BA.mp3'],
+
+    // ['name' => '011.အပယ်ပိတ်ရှုကွက်', 'src' => ''],
+    // ['name' => '012.တာမွေရှုကွက်', 'src' => ''],
+    // ['name' => '013.မြေနီကုန်းရှုကွက်', 'src' => ''],
+    // ['name' => '014.ထားဝယ်ရှုကွက်', 'src' => ''],
+    // ['name' => '015.မော်လမြိုင်ရှုကွက်', 'src' => ''],
+    // ['name' => '016.အကာ နှင့် အနှစ်ရှုကွက်', 'src' => ''],
+    // ['name' => '017.ဝေဒနာနုပဿနာရှုကွက်', 'src' => ''],
+    // ['name' => '018.သင်္ကြန် အဓိဌာန်ရှုကွက်', 'src' => ''],
+    // ['name' => '019.တောင်တွင်းကြီး(၁)ရှုကွက်', 'src' => ''],
+    // ['name' => '020.တောင်တွင်းကြီး(၂)ရှုကွက်', 'src' => ''],
 ];
 
 // Pagination setup
-$per_page = 10;
 $total_items = count($audio_datas);
+$per_page = 12;
 $total_pages = ceil($total_items / $per_page);
 $current_page = isset($_GET['page']) ? (int) $_GET['page'] : 1;
 $current_page = max(1, min($total_pages, $current_page)); // prevent out-of-range
@@ -68,7 +70,7 @@ $audio_page_data = array_slice($audio_datas, $start, $per_page);
       <div class="col-md-4">
         <div class="p-4 bg-white rounded-4 shadow-sm h-100">
           <div class="mb-2 fw-semibold text-brown d-flex align-items-center">
-            <?php echo $id . ". " . $audio['name']; ?>
+            <?php echo $audio['name']; ?>
           </div>
           <audio controls class="w-100">
             <source src="<?= htmlspecialchars($audio['src']) ?>" type="audio/mpeg">
@@ -114,5 +116,30 @@ $audio_page_data = array_slice($audio_datas, $start, $per_page);
 </nav>
 
 </div>
+<script>
+  let currentAudio = null;
 
+  document.querySelectorAll('audio').forEach((audio) => {
+    audio.addEventListener('play', () => {
+      // Pause any other playing audio
+      if (currentAudio && currentAudio !== audio) {
+        currentAudio.pause();
+      }
+      currentAudio = audio;
+    });
+
+    // Reset currentAudio when one ends or is paused manually
+    audio.addEventListener('pause', () => {
+      if (currentAudio === audio) {
+        currentAudio = null;
+      }
+    });
+
+    audio.addEventListener('ended', () => {
+      if (currentAudio === audio) {
+        currentAudio = null;
+      }
+    });
+  });
+</script>
 <?php include '../footer.php'; ?>

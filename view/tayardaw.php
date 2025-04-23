@@ -38,7 +38,7 @@
         </div>
         <?php $id++; } ?>
         <a href="/" class="btn btn-default mt-3 bg-brown viewmorebtn float-end mt-5" type="button">
-          View All >>
+          View All Videos
         </a>
       </div>
     </div>
@@ -50,30 +50,12 @@
         <h3 class="mb-4 text-brown">🎧 တရားတော် အသံဖိုင်များ</h3>
         <?php 
           $audio_datas = [
-            [
-              'name' => '22 KAYAMIMAM METHOD',
-              'src' => 'https://ia800608.us.archive.org/9/items/22-kayamimam-method/22%20KAYAMIMAM%20METHOD.mp3',
-            ],
-            [
-              'name' => '23 RIGHT THOUGHT',
-              'src' => 'https://ia601806.us.archive.org/10/items/23-right-thought/23%20%20RIGHT%20THOUGHT.mp3',
-            ],
-            [
-              'name' => 'တစ်ခါတည်းချစ်ချင်လို့ပါ ချမ်းချမ်း Lyrics (256k)',
-              'src' => 'https://ia801504.us.archive.org/3/items/lyrics-256k/%E1%80%90%E1%80%85%E1%80%BA%E1%80%81%E1%80%AB%E1%80%90%E1%80%8A%E1%80%BA%E1%80%B8%E1%80%81%E1%80%BB%E1%80%85%E1%80%BA%E1%80%81%E1%80%BB%E1%80%84%E1%80%BA%E1%80%9C%E1%80%AD%E1%80%AF%E1%80%B7%E1%80%95%E1%80%AB_-_%E1%80%81%E1%80%BB%E1%80%99%E1%80%BA%E1%80%B8%E1%80%81%E1%80%BB%E1%80%99%E1%80%BA%E1%80%B8__Lyrics_%28256k%29.mp3',
-            ],
-            [
-              'name' => 'Joe Lay နေရောင်ပျောက်တဲ့နွေ Lyric Video ( 256k)',
-              'src' => 'https://ia800704.us.archive.org/23/items/joe-lay-lyric-video-256k/Joe_Lay_-_%E1%80%94%E1%80%B1%E1%80%9B%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%E1%80%95%E1%80%BB%E1%80%B1%E1%80%AC%E1%80%80%E1%80%BA%E1%80%90%E1%80%B2%E1%80%B7%E1%80%94%E1%80%BD%E1%80%B1__Lyric_Video_%28256k%29.mp3',
-            ],
-            [
-              'name' => 'ကံ့ကော်မြို့တော် (256k)',
-              'src' => 'https://ia600704.us.archive.org/22/items/256k_20250422/%E1%80%80%E1%80%B6%E1%82%95%E1%80%B1%E1%80%80%E1%80%AC%E1%80%B9%E1%80%BB%E1%80%99%E1%80%AD%E1%80%B3%E1%82%95%E1%80%B1%E1%80%90%E1%80%AC%E1%80%B9%28256k%29.mp3',
-            ],
-            [
-              'name' => 'ဥပါဒါန္ Theme Song( 256k)',
-              'src' => 'https://ia801404.us.archive.org/33/items/theme-song-256k/%E1%80%A5%E1%80%95%E1%80%AB%E1%80%92%E1%80%AB%E1%80%94%E1%80%B9___Theme_Song%28256k%29.mp3',
-            ]
+            ['name' => '001.ပရိကံ', 'src' => 'https://ia800206.us.archive.org/14/items/001._20250423/001.%E1%80%95%E1%80%9B%E1%80%AD%E1%80%80%E1%80%B6.mp3'],
+            ['name' => '003.အရှုဈာန်သက်သက်ရှုကွက်', 'src' => 'https://ia600709.us.archive.org/4/items/003.f/003.%E1%80%A1%E1%80%9B%E1%82%88%E1%80%85%E1%80%BA%E1%80%AC%E1%80%94%E1%80%B9%E1%80%9E%E1%80%80%E1%80%B9%E1%80%9E%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80f.mp3'],
+            ['name' => '004.မှော်ဘီရှုကွက်', 'src' => 'https://ia600709.us.archive.org/12/items/004._20250423/004.%E1%80%B1%E1%80%99%E1%80%BD%E1%80%AC%E1%80%B9%E1%80%98%E1%80%AE%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+            ['name' => '005.မြောက်ဥက္ကလာရှုကွက်', 'src' => 'https://ia801705.us.archive.org/32/items/005._20250423/005.%E1%80%B1%E1%80%BB%E1%80%99%E1%80%AC%E1%80%80%E1%80%B9%E1%80%A5%E1%80%80%E1%81%A0%E1%80%9C%E1%80%AC%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+            ['name' => '006.ဝေဒနာရှုကွက်', 'src' => 'https://ia801801.us.archive.org/12/items/006._20250423/006.%E1%80%B1%E1%80%9D%E1%80%92%E1%80%94%E1%80%AC%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+            ['name' => '007.တက္ကသိုလ်ရှုကွက်', 'src' => 'https://ia600706.us.archive.org/0/items/007._20250423/007.%E1%80%90%E1%80%80%E1%81%A0%E1%80%9E%E1%80%AD%E1%80%AF%E1%80%9C%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
           ];
           $id = 1;
           foreach($audio_datas as $audio){
@@ -86,7 +68,7 @@
         </div>
         <?php $id++; } ?>
         <a href="audios.php" class="btn btn-default mt-3 bg-brown viewmorebtn float-end" type="button">
-          View All >>
+          View All Audios
         </a>
       </div>
     </div>

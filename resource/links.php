@@ -49,6 +49,9 @@
 .text-brown{
   color: rgb(94,0,0);
 }
+.bold{
+  font-weight: bold;
+}
 .header{
   margin-top: -2px;
   margin-bottom: 2px;
@@ -87,7 +90,7 @@
 }
 .main-title{
   /* display: block; */
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   color: rgb(94,0,0);
   margin: 0px 10px;
@@ -95,7 +98,7 @@
 }
 .sub-title{
   font-weight: bold;
-  font-size: 15px;
+  font-size: 17px;
   font-style: italic;
   /* color: rgb(94,0,0); */
 }
@@ -172,7 +175,7 @@
   border-top-right-radius: 6px;
 }
 .title-underline{
-  width: 150px;
+  width: 200px;
   height: 4px;
   /* border-bottom: 3px solid red; */
   background-color: rgb(94,0,0);
@@ -272,6 +275,12 @@ audio {
   width: 344px;
   /* flex-wrap: wrap; */
 }
+.bio_video{
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid rgb(94, 0, 0); */
+  box-shadow: 0px 8px 16px 0px rgb(94,0,0);
+}
 .pagination .page-link {
     border: none;
     color:rgb(0, 0, 0);
@@ -279,6 +288,7 @@ audio {
     font-weight: 500;
     padding: 0.5rem 0.75rem;
     font-size: 20px;
+    margin: 0px 10px;
   }
 
   .pagination .page-item.active .page-link {
@@ -289,13 +299,28 @@ audio {
   }
 
   .pagination .page-item .page-link:hover {
-    background-color: #e9ecef;
+    background-color:rgb(94, 0, 0);
     border-radius: 0.375rem;
+    color: white;
   }
 
   .pagination .page-item.disabled .page-link {
     color: #adb5bd;
   }
+  .introimg{
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(94,0,0,0.3);
+    transition: 0.3s;
+  }
+  .introimg:hover{
+    transform: scale(1.02);
+  }
+
+
+
+
+
 
 
 
