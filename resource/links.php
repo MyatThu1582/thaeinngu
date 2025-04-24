@@ -64,7 +64,8 @@
 .home{
   height: 550px;
   color: black;
-  background-image: url('Thaeinngu/home.png');
+  background-image: url('image/home.png');
+  /* background-color: rgba(201, 200, 200, 0.5); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 50%;
@@ -145,7 +146,7 @@
   padding-left: 20px;
 }
 .bannar{
-  background-image: url('../Thaeinngu/bannar2.png');
+  background-image: url('/image/bannar2.png');
   background-repeat: no-repeat;
   /* background-size: cover; */
   /* background-position: 100% 50%; */
@@ -155,7 +156,7 @@
 }
 .speech{
   height: 200px;
-  background-image: url('Thaeinngu/forhome.jpg');
+  background-image: url('image/forhome.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -225,9 +226,12 @@
 .gallerydiv{
   position:relative;
   overflow:hidden !important;
-  background-color: lightblue;
+  background-color: rgba(94,0,0,0.5);
   padding:10px;
+  border-radius: 5px;
   text-align: center;
+  width: 275px;
+  cursor: pointer;
 }
 .image-text{
   width: 100%;
@@ -316,7 +320,11 @@ audio {
   .introimg:hover{
     transform: scale(1.02);
   }
-
+  .sayardawimg{
+    /* border: 5px double rgb(94,0,0); */
+    border-radius: 15%;
+    overflow: hidden;
+  }
 
 
 

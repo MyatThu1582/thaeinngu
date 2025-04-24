@@ -1,14 +1,18 @@
 <?php include 'navbar.php'; ?>
 <!-- first -->
-<div class="home d-flex">
-  <div class="col-6 mt-5 ms-5 ps-5">
-    <img src="sayardaw/2.3.png" alt="" width="45%" height="70%" class="rounded-3"><br><br>
-    မူလသဲအင်းဂူဆရာတော်
-    <span class="text-brown">ဘုရားကြီး ဦးဥက္ကဌ</span>
+<div class="home d-flex ps-5">
+  <div class="col-3 mt-5 ms-5 ps-5">
+    <div class="sayardawimg mt-4">
+      <img src="sayardaw/4.png" alt="" width="100%" class="rounded-3">
+    </div><br>
+    <span class="bold">မူလသဲအင်းဂူဆရာတော်ဘုရားကြီး</span>
+    <span class="text-brown bold">ဦးဥက္ကဌ</span>
   </div>
-  <div class="col-4">
+  <div class="col-6 mt-5 ms-5 ps-5" style="margin-top: 20% !important; margin-left: 10% !important;">
+    <span style="font-size: 50px; margin-bottom: 9px; display: block; font-weight: bold; color: rgba(24, 0, 0, 0.8);">သဲအင်း ယောဂီ </span><span style="font-size: 70px; font-weight: bold; color: rgba(24, 0, 0, 0.8);">" ကိုယ့်စိတ်ကိုယ်စစ် "</span>
     <!-- <h3 class="">Welcome To ThaeInnGu</h3>
-    <p class="mt-3">Located in the serene outskirts of Hmawbi, Myanmar, Theinngu Monastery is a revered sanctuary dedicated to the practice of mindfulness and insight meditation. Founded by the esteemed Theinngu Sayadaw U Ukkaṭṭha, the monastery serves as the heart of the Theinngu Vipassanā tradition—a practice rooted in unwavering stillness, deep awareness, and inner transformation.</p> -->
+    <p class="mt-3">မြန်မာနိုင်ငံ မှော်ဘီမြို့ပြင် သာယာအေးချမ်းသော သိမ်ငူကျောင်းတိုက်သည် သတိပဋ္ဌာန်တရားနှင့် ဝိပဿနာတရား အားထုတ်ရန် ရည်စူးထားသော မြင့်မြတ်သော ခိုကိုးရာဖြစ်သည်။ လေးစားအပ်ပါသော သိမ်ငူဆရာတော် ဦးဥက္ခṭṭha မှ တည်ထောင်ထားသော ကျောင်းတိုက်သည် သိမ်ဂူဝိပဿနာ ဓလေ့၏ နှလုံးသားအဖြစ် တည်ရှိပြီး မယိမ်းယိုင်မယိမ်းမယိုင်၊ နက်နဲသော သတိတရားနှင့် အတွင်းစိတ်အသွင်ကူးပြောင်းမှုတို့၌ အမြစ်တွယ်နေသည့် ဓလေ့တစ်ခုဖြစ်သည်။
+    ခိုင်ခံ့သောမျိုးရိုးနှင့် ဓမ္မကို ရည်ညွန်းသော သိမ်ငူကျောင်းတိုက်သည် ဉာဏ်ပညာ ၊ စည်းကမ်း နှင့် ငြိမ်းချမ်းမှုကို ပြင်းပြင်းထန်ထန် အားထုတ်ခြင်း အားဖြင့် ကမ္ဘာအရပ်ရပ်မှ ရှာဖွေသူများ စုဝေးရာ နေရာအဖြစ် ဆက်လက်တည်ရှိနေပါသည်။ လွတ်မြောက်မှုလမ်းစဉ်ကို လျှောက်လှမ်းသူများအတွက် ဘုန်းကြီးကျောင်းတစ်ခုထက်မက။</p> -->
   </div>
 </div>
 <!-- first -->
@@ -21,7 +25,7 @@
 <div class="bio container d-flex">
   <div class="col-6">
     <div class="pe-5">
-      <video src="https://ia600703.us.archive.org/10/items/video_2025-04-23_14-07-15/video_2025-04-23_14-07-15.mp4" class="bio_video" controls></video>
+      <video src="/image/video.mp4" class="bio_video" controls></video>
     </div>
   </div>
   <div class="col-6">
@@ -56,18 +60,18 @@
       <p style="text-align: justify;">သဲအင်းဂူကျောင်းတိုက်သည် မြန်မာနိုင်ငံ မြောက်ဘက် မှော်ဘီမြို့နယ်တွင် တည်ရှိသည်။ ဤနေရာသည် ၎င်း၏ အေးချမ်းသာယာသော ကျေးလက်လေထုကြောင့် ....</p>
     </div>
     <div class="">
-      <h5 class="text-brown">Who is Tha Fonder of ThaeInnGu ?</h5>
+      <h5 class="text-brown bold">ဘယ်သူ တည်ထောင်ခဲ့သလဲ ?</h5>
       <p style="text-align: justify;">သဲအင်းဂူဆရာတော် ဦးဥက္ခဌ (၁၉၁၃-၁၉၇၃) သည် သဲအင်းဂူဝိပဿနာ အစဉ်အလာကို တည်ထောင်သူဖြစ်ပြီး မြန်မာလူမျိုး အလွန်လေးစားထိုက်သူဖြစ်သည်။ မယိမ်းမယိုင်သော စည်းကမ်းနှင့် လေးနက်သော သဘောဖြင့် လူသိများသော ဆရာတော် ဦးဥက္ခဌသည် ပြင်းပြသော ....</p>
     </div>
     <a href="view/intro.php" class="btn btn-default mt-3 bg-brown viewmorebtn" type="button">See More</a>
   </div>
   <div class="col-6 mt-5 pt-5 d-flex">
     <div class="col-6">
-      <img src="ThaeInnGu/intro3.jpg" alt="" width="95%" height="80%" class="introimg">
+      <img src="/image/intro3.jpg" alt="" width="95%" height="80%" class="introimg">
     </div>
     <div class="col-6">
-      <img src="ThaeInnGu/introduction.jpg" alt="" width="95%" height="38.9%" class="mb-3 introimg">
-      <img src="ThaeInnGu/speech.jpg" alt="" width="95%" height="38.9%" class="introimg">
+      <img src="/image/introduction.jpg" alt="" width="95%" height="38.9%" class="mb-3 introimg">
+      <img src="/image/speech.jpg" alt="" width="95%" height="38.9%" class="introimg">
     </div>
   </div>
 </div>
@@ -91,7 +95,7 @@
   <p class="title-underline"></p>
   <div class="d-flex">
     <div class="activity">
-        <img src="ThaeInnGu/activity5.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
+        <img src="/image/activity5.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
         <div class="text-light" style="margin-top:-180px; margin-left:20px;">
           <div class="d-flex" style="align-items: flex-end; height:150px;">
             <span style="font-size:20px; display: block;">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
@@ -104,7 +108,7 @@
         </div>
     </div>
     <div class="ms-4 me-4 activity">
-      <img src="ThaeInnGu/activity4.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
+      <img src="/image/activity4.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
       <div class="text-light" style="margin-top:-130px; margin-left:20px;">
         <div class="d-flex" style="height:100px; align-items: flex-end;">
           <span style="font-size:20px;">isicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
@@ -117,7 +121,7 @@
       </div>
     </div>
     <div class="activity">
-      <img src="ThaeInnGu/activity.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
+      <img src="/image/activity.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
       <div class="text-light" style="margin-top:-130px; margin-left:20px;">
         <div class="d-flex" style="height:100px; align-items: flex-end;">
           <span style="font-size:20px;">lorefn kfsdkff isicing elit, sed do eiusmod tempor after  incididunt ut labore et dolore</span>

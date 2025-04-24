@@ -10,6 +10,43 @@
   </div>
 </div>
 
+<?php 
+  $images = [
+      [
+        'name' => 'အရိယာ ဓမ္မဗိမာန်တော်ကြီး',
+        'src' => '/image/Introduction.jpg',
+      ],
+      [
+        'name' => 'စံကျောင်းတော်ကြီး',
+        'src' => '/image/activity5.jpg',
+      ],
+      [
+        'name' => 'ဆွမ်းစားဆောင်',
+        'src' => '/image/gallery.jpg',
+      ],
+      [
+        'name' => 'မူလသဲအင်း စံကျောင်းတော်',
+        'src' => '/image/gallery2.jpg',
+      ],
+      [
+        'name' => 'ဗိမာန်တော် အတွင်းပိုင်း',
+        'src' => '/image/activity.jpg',
+      ],
+      [
+        'name' => 'အထင်ကရ ညောင်ပင်ကြီး',
+        'src' => '/image/tree.jpg',
+      ],
+      [
+        'name' => 'ကျောင်းတိုက်အတွင်းရှိ ရေကန်',
+        'src' => '/image/lake.jpg',
+      ],
+      [
+        'name' => 'မူလစံကျောင်းတော် အတွင်းပိုင်း',
+        'src' => '/image/inner.jpg',
+      ],
+  ]
+?>
+
 <div class="container mt-5 pt-5">
   <div class="d-flex">
     <div class="col-10 me-3">
@@ -17,69 +54,37 @@
       <p class="title-underline"></p>
     </div>
   </div>
-  <div class="d-flex">
-    <div class="col-3 me-2 gallerydiv" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/Introduction.jpg" alt="" width="100%">
-      <div class="image-text">အရိယာ ဓမ္မဗိမာန်တော်ကြီး</div>
-    </div>
-    <div class="modal fade modal-lg h-70" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close" style="margin-right:-80px;"></button>
-            <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/Introduction.jpg" alt="" width="100%">
+
+
+  <div class="row g-4">
+    <?php $id = 1; ?>
+    <?php foreach ($images as $image): ?>
+      <div class="me-2 shadow-sm h-100 gallerydiv" data-bs-toggle="modal" data-bs-target="#example<?= $id; ?>Modal">
+      <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="<?php echo $image['src']; ?>" alt="" width="100%">
+        <div class="image-text"><?php echo $image['name']; ?></div>
+      </div>
+
+      <div class="modal fade modal-lg h-70 mt-3" id="example<?= $id; ?>Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">   
+                <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="<?php echo $image['src']; ?>" alt="" width="100%">
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="col-3 me-2 gallerydiv" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-      <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/activity5.jpg" alt="" width="100%">
-      <div class="image-text">စံကျောင်းတော်ကြီး</div>
-    </div>
-
-    <div class="modal fade modal-lg" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close" style="margin-right:-80px;"></button>
-            <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/activity5.jpg" alt="" width="100%">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-3 me-2 gallerydiv">
-      <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/gallery.jpg" alt="" width="95%">
-      <div class="image-text">ဆွမ်းစားဆောင်</div>
-    </div>
-    <div class="col-3 me-2 gallerydiv">
-      <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/gallery2.jpg" alt="" width="95%">
-      <div class="image-text">မူလသဲအင်း စံကျောင်းတော်</div>
-    </div>
-  </div>
-  <div class="d-flex mt-4">
-    <div class="col-3 me-2 gallerydiv">
-      <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/activity.jpg" alt="" width="100%">
-      <div class="image-text">ဗိမာန်တော် အတွင်းပိုင်း</div>
-    </div>
-    <div class="col-3 me-2 gallerydiv">
-      <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/tree.jpg" alt="" width="100%">
-      <div class="image-text">အထင်ကရ</div>
-    </div>
-    <div class="col-3 me-2 gallerydiv">
-      <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/lake.jpg" alt="" width="100%">
-      <div class="image-text">ဓမ္မဗိမာန်တော်ကြီး</div>
-    </div>
-    <div class="col-3 me-2 gallerydiv">
-      <img class="rounded_gallery" class="rounded_gallery" class="rounded_gallery" src="../ThaeInnGu/inner.jpg" alt="" width="100%">
-      <div class="image-text">ဓမ္မဗိမာန်တော်ကြီး</div>
-    </div>
+      <?php 
+      $id++;
+        endforeach; 
+    ?>
   </div>
   <div class="ms-5 mt-4 float-end">
     <a href="" class="text-brown link">See more images</a>
   </div>
+  <br>
+  <br>
 </div>
+
 
 <br><br><br>
 <?php include '../footer.php'; ?>

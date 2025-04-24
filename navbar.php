@@ -108,17 +108,7 @@
     ?>
     </div>
     <div class="col-2">
-      <?php 
-      if ($page == 'index.php' || $page == 'login.php' || $page == 'register.php') {
-      ?>
-      <img src="thaeinngu/buddha2.png" alt="" width="80%" height="80%">
-      <?php
-      }else{
-      ?>
-      <img src="../thaeinngu/buddha2.png" alt="" width="80%" height="80%">
-      <?php
-      }
-      ?>
+      <img src="/image/buddha2.png" alt="" width="80%" height="80%">
     </div>
   </div>
 </div>

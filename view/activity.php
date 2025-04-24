@@ -17,7 +17,7 @@
   <p class="title-underline"></p>
   <div class="d-flex">
     <div class="activity">
-        <img src="../ThaeInnGu/activity5.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
+        <img src="/image/activity5.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
         <div class="text-light" style="margin-top:-180px; margin-left:20px;">
           <div class="d-flex bg-success" style="align-items: flex-end; height:150px;">
             <span style="font-size:20px; display: block;">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
@@ -30,7 +30,7 @@
         </div>
     </div>
     <div class="ms-4 me-4 activity">
-      <img src="../ThaeInnGu/activity4.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
+      <img src="/image/activity4.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
       <div class="text-light" style="margin-top:-130px; margin-left:20px;">
         <div class="d-flex" style="height:100px; align-items: flex-end;">
           <span style="font-size:20px;">isicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="activity">
-      <img src="../ThaeInnGu/activity.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
+      <img src="/image/activity.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
       <div class="text-light" style="margin-top:-130px; margin-left:20px;">
         <div class="d-flex" style="height:100px; align-items: flex-end;">
           <span style="font-size:20px;">lorefn kfsdkff isicing elit, sed do eiusmod tempor after  incididunt ut labore et dolore</span>
@@ -59,7 +59,7 @@
 
   <div class="d-flex mt-5">
     <div class="activity">
-        <img src="../ThaeInnGu/activity5.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
+        <img src="/image/activity5.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
         <div class="text-light" style="margin-top:-180px; margin-left:20px;">
           <div class="d-flex bg-success" style="align-items: flex-end; height:150px;">
             <span style="font-size:20px; display: block;">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
@@ -72,7 +72,7 @@
         </div>
     </div>
     <div class="ms-4 me-4 activity">
-      <img src="../ThaeInnGu/activity4.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
+      <img src="/image/activity4.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
       <div class="text-light" style="margin-top:-130px; margin-left:20px;">
         <div class="d-flex" style="height:100px; align-items: flex-end;">
           <span style="font-size:20px;">isicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
@@ -85,7 +85,7 @@
       </div>
     </div>
     <div class="activity">
-      <img src="../ThaeInnGu/activity.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
+      <img src="/image/activity.jpg" alt="" class="actimg" width="100%" height="70%" style="object-fit:cover;">
       <div class="text-light" style="margin-top:-130px; margin-left:20px;">
         <div class="d-flex" style="height:100px; align-items: flex-end;">
           <span style="font-size:20px;">lorefn kfsdkff isicing elit, sed do eiusmod tempor after  incididunt ut labore et dolore</span>

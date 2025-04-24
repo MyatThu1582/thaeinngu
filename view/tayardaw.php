@@ -20,11 +20,11 @@
           $video_datas = [
             [
               'name' => 'Facebook 269560251844372 (720p)',
-              'src' => 'https://ia801304.us.archive.org/35/items/facebook-269560251844372-720p/Facebook%20269560251844372%28720p%29.mp4',
+              'src' => 'https://ia600703.us.archive.org/10/items/video_2025-04-23_14-07-15/video_2025-04-23_14-07-15.mp4',
             ],
             [
-              'name' => 'Part ( 1)ရဲတွေ ပလိပ်တွေ အစစ်ဆေးများတယ့်မဟာချိုင်မြို့ကိုသွားလည်ကြည့်မယ် အပိုင်း(၁)( 720 P HD)',
-              'src' => 'https://ia801403.us.archive.org/18/items/part-1-720-p-hd/Part%20%281%29%E1%80%9B%E1%80%B2%E1%80%90%E1%80%BD%E1%80%B1%20%E1%80%95%E1%80%9C%E1%80%AD%E1%80%95%E1%80%BA%E1%80%90%E1%80%BD%E1%80%B1%20%E1%80%A1%E1%80%85%E1%80%85%E1%80%BA%E1%80%86%E1%80%B1%E1%80%B8%E1%80%99%E1%80%BB%E1%80%AC%E1%80%B8%E1%80%90%E1%80%9A%E1%80%B7%E1%80%BA%E1%80%99%E1%80%9F%E1%80%AC%E1%80%81%E1%80%BB%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%99%E1%80%BC%E1%80%AD%E1%80%AF%E1%80%B7%E1%80%80%E1%80%AD%E1%80%AF%E1%80%9E%E1%80%BD%E1%80%AC%E1%80%B8%E1%80%9C%E1%80%8A%E1%80%BA%E1%80%80%E1%80%BC%E1%80%8A%E1%80%B7%E1%80%BA%E1%80%99%E1%80%9A%E1%80%BA%20%E1%80%A1%E1%80%95%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%B8%28%E1%81%81%29%28720P_HD%29.mp4',
+              'name' => 'Facebook 269560251844372 (720p)',
+              'src' => 'https://ia600703.us.archive.org/10/items/video_2025-04-23_14-07-15/video_2025-04-23_14-07-15.mp4',
             ],
           ];
           $id = 1;
@@ -37,7 +37,7 @@
           <video src="<?php echo $video['src']; ?>" class="custom-video mt-2" controls></video>
         </div>
         <?php $id++; } ?>
-        <a href="/" class="btn btn-default mt-3 bg-brown viewmorebtn float-end mt-5" type="button">
+        <a href="videos.php" class="btn btn-default bg-brown viewmorebtn float-end" type="button">
           View All Videos
         </a>
       </div>
@@ -51,23 +51,24 @@
         <?php 
           $audio_datas = [
             ['name' => '001.ပရိကံ', 'src' => 'https://ia800206.us.archive.org/14/items/001._20250423/001.%E1%80%95%E1%80%9B%E1%80%AD%E1%80%80%E1%80%B6.mp3'],
+            ['name' => '002.ဝေဒနာ တစ်လုံးတည်းသိ', 'src' => 'https://ia600705.us.archive.org/21/items/mp-3-160-k_20250423/_%E1%80%9E%E1%80%B2%E1%80%A1%E1%80%84%E1%80%BA%E1%80%B8%E1%80%82%E1%80%B0%E1%80%86%E1%80%9B%E1%80%AC%E1%80%90%E1%80%B1%E1%80%AC%E1%80%BA%E1%80%98%E1%80%AF%E1%80%9B%E1%80%AC%E1%80%B8%E1%80%80%E1%80%BC%E1%80%AE%E1%80%B8%20%E1%80%9D%E1%80%B1%E1%80%92%E1%80%94%E1%80%AC%20%E1%80%90%E1%80%85%E1%80%BA%E1%80%9C%E1%80%AF%E1%80%B6%E1%80%B8%E1%80%90%E1%80%8A%E1%80%BA%E1%80%B8%E1%80%9E%E1%80%AD%E1%80%A1%E1%80%9C%E1%80%AF%E1%80%95%E1%80%BA%E1%80%95%E1%80%B1%E1%80%B8%E1%80%90%E1%80%9B%E1%80%AC%E1%80%B8%E1%80%90%E1%80%B1%E1%80%AC%E1%80%BA------------%28MP3_160K%29.mp3'],
             ['name' => '003.အရှုဈာန်သက်သက်ရှုကွက်', 'src' => 'https://ia600709.us.archive.org/4/items/003.f/003.%E1%80%A1%E1%80%9B%E1%82%88%E1%80%85%E1%80%BA%E1%80%AC%E1%80%94%E1%80%B9%E1%80%9E%E1%80%80%E1%80%B9%E1%80%9E%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80f.mp3'],
             ['name' => '004.မှော်ဘီရှုကွက်', 'src' => 'https://ia600709.us.archive.org/12/items/004._20250423/004.%E1%80%B1%E1%80%99%E1%80%BD%E1%80%AC%E1%80%B9%E1%80%98%E1%80%AE%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
             ['name' => '005.မြောက်ဥက္ကလာရှုကွက်', 'src' => 'https://ia801705.us.archive.org/32/items/005._20250423/005.%E1%80%B1%E1%80%BB%E1%80%99%E1%80%AC%E1%80%80%E1%80%B9%E1%80%A5%E1%80%80%E1%81%A0%E1%80%9C%E1%80%AC%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
-            ['name' => '006.ဝေဒနာရှုကွက်', 'src' => 'https://ia801801.us.archive.org/12/items/006._20250423/006.%E1%80%B1%E1%80%9D%E1%80%92%E1%80%94%E1%80%AC%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
-            ['name' => '007.တက္ကသိုလ်ရှုကွက်', 'src' => 'https://ia600706.us.archive.org/0/items/007._20250423/007.%E1%80%90%E1%80%80%E1%81%A0%E1%80%9E%E1%80%AD%E1%80%AF%E1%80%9C%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+            // ['name' => '006.ဝေဒနာရှုကွက်', 'src' => 'https://ia801801.us.archive.org/12/items/006._20250423/006.%E1%80%B1%E1%80%9D%E1%80%92%E1%80%94%E1%80%AC%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
+            // ['name' => '007.တက္ကသိုလ်ရှုကွက်', 'src' => 'https://ia600706.us.archive.org/0/items/007._20250423/007.%E1%80%90%E1%80%80%E1%81%A0%E1%80%9E%E1%80%AD%E1%80%AF%E1%80%9C%E1%80%B9%E1%80%9B%E1%82%88%E1%80%80%E1%80%BC%E1%80%80%E1%80%B9.mp3'],
           ];
           $id = 1;
           foreach($audio_datas as $audio){
         ?>
         <div class="mb-4 p-3 border rounded-3 bg-light">
           <div class="mb-2 fw-semibold text-brown d-flex align-items-center">
-            <?php echo $id . ". " . $audio['name']; ?>
+            <?php echo $audio['name']; ?>
           </div>
           <audio src="<?php echo $audio['src']; ?>" class="custom-audio" controls></audio>
         </div>
         <?php $id++; } ?>
-        <a href="audios.php" class="btn btn-default mt-3 bg-brown viewmorebtn float-end" type="button">
+        <a href="audios.php" class="btn btn-default mt-5 bg-brown viewmorebtn float-end" type="button">
           View All Audios
         </a>
       </div>
